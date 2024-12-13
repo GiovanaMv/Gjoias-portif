@@ -1,0 +1,19 @@
+body{overflow-x: hidden;} hr{color:rgb(77, 23, 1); width:70%; margin-left:15%;margin-bottom: 3%; margin-top:-10px;margin-top: 2%;}
+#joaninha img {width: 100%; height:450px;}
+.card {width: 300px;background-color: rgba(196, 132, 38, 0.822); border: none;box-shadow: 0 4px 5px rgba(0, 0, 0, 0.6); /* Sombra leve */text-align: center;color: white;font-family: 'Times New Roman', Times, serif;font-size: 20px;} 
+.nav-link {color: rgb(255, 255, 255); cursor: pointer; font-size: 20px;font-family: 'Times New Roman', Times, serif;}
+.carousel-caption a{text-decoration: none; color: white;} .carousel-caption h3 {font-family:'Times New Roman', Times, serif;} .caption-carousel p {font-size: large;}
+#Lançamentos h2 {color:  rgb(77, 23, 1); font-family: 'Times New Roman', Times, serif; text-align: center; padding:30px} #Lançamentos p {text-align: center; font-size: large; margin-top: -20px; margin-bottom: 3%; color:rgb(77, 23, 1);}
+.card h4 {color: rgb(77, 23, 1);} .card button {background-color: rgba(196, 132, 38, 0.822); color: rgb(77, 23, 1); border:none;}
+#Brincos h2 {color:rgb(77, 23, 1); font-family: 'Times New Roman', Times, serif; text-align: center; padding:30px; margin-top:-7px;} #Brincos button {border-radius: 5px; border: none;color:rgb(77, 23, 1); background-color:rgba(219, 157, 64, 0.822);}
+.price {margin: 10px;color:rgb(77, 23, 1);} .header-card{padding: 8px;} #preco, strong {color: rgb(77, 23, 1);}#brincos {margin-top: 20px;}
+#Outras-Opções h2 {color:rgb(77, 23, 1); font-family: 'Times New Roman', Times, serif; text-align: center; padding:30px} #Outras-Opções p {text-align: center; font-size: large; margin-top: -20px; margin-bottom: 3%; color:rgb(77, 23, 1);}
+#Contato h1 {font-family: 'Times New Roman', Times, serif;text-align: center;margin-bottom: 2%;color: rgb(77, 23, 1);} #h2-contato {color: rgb(77, 23, 1); font-family: 'Times New Roman', Times, serif;} .container-contato {text-align: justify;font-weight: 400;color: rgb(77, 23, 1);}
+.contato-form {max-width: 60%; font-family: 'Times New Roman', Times, serif; font-weight: bold;font-size:large;} label {color: rgb(77, 23, 1);} #contato-form button {display:block; cursor:pointer; padding:5px; width:90%; background-color: rgb(77, 23, 1); color:white; border:none;margin-bottom: 10px;}
+#nossas-lojas h3 {color: rgb(77, 23, 1); font-family: 'Times New Roman', Times, serif;} #nossas-lojas p {color:rgb(77, 23, 1);}
+#social-links h3{color: rgb(77, 23, 1); font-family: 'Times New Roman', Times, serif;margin-left: 55px;} #social-links li {list-style: none;} #social-links a {cursor: pointer; margin: 30px;} i{color: sienna;}
+#contato-form button:hover {background-color:  rgb(160, 45, 0);}
+.card {transition: transform 0.3s ease; /* Transição suave */} .card:hover{transform: scale(1.1);/* Aumenta 10% o tamanho */ z-index: 10; /* Traz para frente */}
+@media screen and (max-width: 767px) {#Contato, #nossas-lojas, #social-links {display: block; overflow: hidden;} #Contato {text-align: center;}i {margin-left: 12px;}#social-links h3{margin: 0;}.container-contato {align-items: center;text-align: center;} .container-contato button {margin-left: 6%;}.container-contato p {margin-left: 5%;}.card {margin-left: 7%;}strong {margin-left: 40%;} #brincos p {margin-left: 35%;} #joaninha img {height: 250px;}}
+@media screen and (min-width: 768px) and (max-width: 1023px) { .container-contato {margin-left: 13%;display: inline-block; /* Permite alinhar os elementos ao lado */width: 40%;vertical-align: top;} #Contato .container{display: flex;} #nossas-lojas {display: inline-block;width: 40%;margin-left: 5%;}#social-links {display: block; /* abaixo do #nossas-lojas */margin-left: -35px;}.loja-link {margin-left: 10%;}}
+@media screen and (min-width: 1024px) { #Contato .container {display: flex; margin-top: 3%;margin-left: 10%;} .loja-link {display: flex;}}

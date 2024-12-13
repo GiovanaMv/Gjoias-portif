@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gjóias</title>
+    <link rel="stylesheet" href="./COD BOOTSTRAP CSS.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-----TÍTULO, NAVBAR E "HAMBURGUER"--- -->
+    <header style="background-color: rgb(77, 23, 1);">
+        <div class="container">
+            <nav class="navbar navbar-dark navbar-expand-lg">
+                <h1 style="color: rgb(255, 255, 255); font-family: 'Times New Roman', Times, serif;font-size: 40px;margin-left: 10px;"> Golden Jewels</h1>
+                <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#nav2"><span class="navbar-toggler-icon"></span></button>
+                <nav class="collapse navbar-collapse justify-content-end" id="nav2">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#Lançamentos">Lançamento</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Brincos">Brincos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Outras-Opções">Outras Opções</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Contato">Contatos</a></li>
+                    </ul></nav></nav></div></header>
+    <!-----CAROUSEL------>
+<div id="joaninha" class="carousel carousel-fade slide" data-bs-ride="carousel">
+    <div class="carousel-inner"><div data-bs-interval="4000" class="carousel-item active">
+            <img src="./slide1 (1).jpg" alt="Joias">
+                <div class="carousel-caption"><a href="#"><h3>Joias Clássicas</h3><hr><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></a></div></div>
+        <div data-bs-interval="4000" class="carousel-item">
+            <img src="./slide2 (1).jpg" alt="Joias Presente">
+                <div class="carousel-caption"><a href="#"><h3>Cartão Presente</h3><hr><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></a></div></div>
+        <div data-bs-interval="4000" class="carousel-item">
+            <img src="./slide3 (1).jpg" alt="Joias">
+                <div class="carousel-caption"><a href="#"><h3>Peças Únicas</h3><hr><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></a></div></div>
+    </div>
+<div class="carousel-indicators">
+    <button type="button" data-bs-target="#joaninha" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#joaninha" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#joaninha" data-bs-slide-to="2"></button>
+</div>
+<button data-bs-target="#joaninha" data-bs-slide="prev" class="carousel-control-prev" type="button"><span class="carousel-control-prev-icon"></span></button>
+<button data-bs-target="#joaninha" data-bs-slide="next" class="carousel-control-next" type="button"><span class="carousel-control-next-icon"></span></button></div>
+<!----SECTIONS E CARDS ------>
+<section id="Lançamentos"><h2>Luxo e Design Criativo Especialmente para Você</h2><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p><hr>
+    <div class="container"><div class="row">
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <article class="card">
+                    <header class="header-card"><h4 >Clássicos</h4></header>
+                    <img src="./cardClassicas.jpg"/>
+                    <button type="button">Ir á coleção</button>
+                </article></div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <article class="card">
+                    <header class="header-card"><h4>Novidades</h4></header>
+                    <img src="./cardNovidades.jpg" style="height: 390px;"/>
+                    <button type="button">Ir á coleção</button>
+                </article></div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4 ">
+                <article class="card">
+                    <header class="header-card"><h4>Lançamento</h4></header>
+                    <img src="./cardSurpreendentes.jpg" style="height: 390px;"/>
+                    <button type="button">Ir á coleção</button>
+                </article></div></div></div></section><hr>
+<section id="Brincos">
+    <h2>Encontre a sua Joia Perfeita</h2><p style="text-align: center; font-size: large; margin-top: -20px; margin-bottom: 3%; color:rgb(77, 23, 1);">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    <div class="container"><div class="row">
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <article class="card"><img src="./brincos1.jpg" style="height: 350px;"/><button>Comprar</button></article>
+                <div id="brincos"><strong>R$ 120,00</strong></br><p id="preco">Até 3x sem juros</p></div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <article class="card"><img src="./brincos2.jpg" style="height: 350px;"/><button>Comprar</button></article>
+                <div id="brincos"><strong>R$ 120,00</strong></br><p id="preco">Até 3x sem juros</p></div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <article class="card"><img src="./brincos3.jpg" style="height: 350px;"/><button>Comprar</button></article>
+                <div id="brincos"><strong>R$ 120,00</strong></br><p id="preco">Até 3x sem juros</p></div>
+            </div></div></div></section><hr>
+<section id="Outras-Opções"><h2>Joias exclusivas para todos os estilos</h2><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    <div class="container"><div class="row">
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <article class="card"><header class="header-card"><h4>Óculos</h4></header>
+                <img src="./oculos.jpg" style="height: 390px;"/><button type="button" >Ver mais</button>
+                </article></div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <article class="card"><header class="header-card"><h4>Pulseiras</h4></header>
+                <img src="./pulseiras.jpg" style="height: 390px;"/><button type="button" >Ver mais</button>
+                </article></div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <article class="card"><header class="header-card"><h4>Relógios</h4></header>
+                <img src="./relogios.jpg" style="height: 390px;"/><button type="button">Ver mais</button>
+                </article></div></div></div></section>
+<!-------CONTATOS-------->
+<section id="Contato" style="margin-top: 6%; padding-top: 30px; background-color: rgba(196, 132, 38, 0.822);">
+    <h1>Entre em Contato Conosco</h1><hr>
+    <div class="container">
+        <div class="container-contato">
+            <h2 id="h2-contato">Cadastrar</h2>
+            <p style="max-width: 90%;">Fique por dentro das novidades e ofertas exclusivas.</p>
+            <form id="contato-form">
+                <div class="form-group">
+                    <label style="display: block;" for="nome">Nome :</label>
+                    <input type="text" id="nome" name="nome" placeholder="">
+                    <label class="error" for="nome"></label> 
+                </div>
+                <div class="form-group">
+                    <label style="display: block;" for="telefone">Telefone :</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(__) _____-____">
+                    <label class="error" for="telefone"></label>
+                </div>
+                <div class="form-group">
+                    <label style="display: block;" for="Seu-email">Seu Email</label>
+                    <input type="email" id="Seu-email" name="email" placeholder="">
+                    <label class="error" for="email"></label>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="aceito-termos"/>
+                    <label class="form-check-label" for="aceito-termos">Li e concordo com os termos do site</label>
+                </div>
+                <button class="btn-zoom" type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="loja-link">
+            <div id="nossas-lojas"><h3>Nossa Loja</h3><p>Rua Golden Jewels n° 1123, Vila BOOTSTRAP - Recife - PE</p></div>
+                    <div id="social-links"><h3>Nos acompanhe</h3><ul class="social-links" style="display: flex;">
+                            <li><a href="#" title="Siga-nos no Instagram"><i class="bi bi-instagram"></i></a></li>
+                            <li><a href="#" title="Siga-nos no Facebook"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="#" title="Siga-nos no X"><i class="bi bi-youtube"></i></a></li>
+                    </ul></div></div></div></div></div></section>
+    <footer style="background-color: rgb(77, 23, 1); padding: 3%;"><div class="container"><h5 style="color:rgba(255, 210, 142, 0.822);font-family: 'Times New Roman', Times, serif;text-align: center;"> &copy; Golden Jewels - Todos os direitos reservados - 2024</h5></div></footer>
+    <script src="./COD BOOTSTRAP JS.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./jquery.mask.min.js"></script>
+    <script src="./jquery.validate.min.js"></script>
+    <script src="./messages_pt_BR.min.js"></script>
+    <script src="./main.js"></script>
+</body></html>
